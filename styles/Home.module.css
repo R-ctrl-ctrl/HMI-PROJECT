@@ -127,3 +127,19 @@
     filter: invert(1);
   }
 }
+
+@keyframes example {
+  /* 0%   {width: 0%; }
+  33%  {width: 33%; }
+  66%  {width: 66%; }
+  100% {width: 100%; } */
+  from {width: 0%;background-color: transparent;}
+  to {width: 100%;background-color: green;}
+  
+}
+
+.anime{
+  animation: example;
+  animation-duration: 3s;
+  background-color: green;
+}

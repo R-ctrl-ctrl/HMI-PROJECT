@@ -24,3 +24,7 @@ a {
     background: black;
   }
 }
+
+.leaflet-control-container {
+  display: none;
+}
